@@ -1,0 +1,15 @@
+{
+  "name": "lean_testing_sid",
+  "version": "1.0.0",
+  "description": "this is a sample toy project for a node API that is able to accept lean code + conjecture as input and then erify if it works",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
