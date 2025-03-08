@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Proof</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+        <h1>Full Proof</h1>
+        <p>SOLVE THIS AND WE PAY YOU</p>
+        
+        <!-- Two text boxes -->
+        <div class="input-group">
+            <label for="text1">Theorem</label>
+            <input type="text" id="text1" placeholder="2 + 2 = 4">
+        </div>
+        <div class="input-group">
+            <label for="text2">Proof</label>
+            <input type="text" id="text2" placeholder="Enter something else">
+        </div>
+        
+        <button onclick="showInput()">Submit</button>
+    </div>
+
+    <script>
+        // Simple function to display the input values
+        function showInput() {
+            const text1 = document.getElementById('text1').value;
+            const text2 = document.getElementById('text2').value;
+            alert(`Text Box 1: ${text1}\nText Box 2: ${text2}`);
+        }
+    </script>
+</body>
+</html>
